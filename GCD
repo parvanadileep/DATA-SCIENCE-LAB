@@ -1,0 +1,24 @@
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+# Input from the user
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# Calculate the GCD
+result = gcd(num1, num2)
+
+# Print the result
+print(f"The GCD of {num1} and {num2} is {result}")
+
+
+          OUTPUT
+==================================
+C:\Users\mlm\PycharmProjects\BIBIN\venv\Scripts\python.exe C:\Users\mlm\PycharmProjects\BIBIN\gcd.py 
+Enter the first number: 6
+Enter the second number: 3
+The GCD of 6 and 3 is 3
+
+Process finished with exit code 0
