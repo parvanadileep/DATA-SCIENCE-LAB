@@ -1,0 +1,52 @@
+import numpy as np
+ar1 = np.array(([2,4],[6,8]))
+ar2 = np.array(([1,3],[5,7]))
+print(ar1)
+print(ar2)
+
+print("matrix addition")
+print(np.add(ar1,ar2))
+
+print("matrix subtraction")
+print(np.subtract(ar1,ar2))
+
+print("matrix multiplication")
+print(np.dot(ar1,ar2))
+
+print("matrix division")
+print(np.divide(ar1,ar2))
+
+print("matrix transpose")
+print(ar1.transpose())
+
+print("sum of diagonal element of matrix")
+print(np.trace(ar1))
+
+C:\Users\mlm\PycharmProjects\pythonProject1\venv\Scripts\python.exe C:\Users\mlm\PycharmProjects\pythonProject1\main.py 
+[[2 4]
+ [6 8]]
+[[1 3]
+ [5 7]]
+matrix addition
+[[ 3  7]
+ [11 15]]
+matrix subtraction
+[[1 1]
+ [1 1]]
+matrix multiplication
+[[22 34]
+ [46 74]]
+matrix division
+[[2.         1.33333333]
+ [1.2        1.14285714]]
+matrix transpose
+[[2 6]
+ [4 8]]
+sum of diagonal element of matrix
+10
+
+Process finished with exit code 0
+
+
+
+
